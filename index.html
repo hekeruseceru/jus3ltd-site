@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JUS3 LTD — Sales, Stats & Trends</title>
+  <meta name="description" content="A clean, fast, and simple landing page for JUS3 LTD." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="brand">JUS3 LTD</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <h1>Sales, stats & trend insights — simply.</h1>
+    <p>Lightweight dashboard concepts focused on clarity and speed. Track performance, spot patterns, and make decisions with confidence.</p>
+    <a class="cta" href="#contact">Get in touch</a>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p>We’re building a straightforward dashboard experience for end users that highlights what matters: sales, key metrics, and evolving trends. No clutter — just the signal.</p>
+  </section>
+
+  <section id="features" class="container features">
+    <article>
+      <h3>Track key metrics</h3>
+      <p>Monitor the figures that matter to you and see how they change over time.</p>
+    </article>
+    <article>
+      <h3>Spot trends</h3>
+      <p>Identify upward or downward movements early with simple visual summaries.</p>
+    </article>
+    <article>
+      <h3>Decide faster</h3>
+      <p>Clean, structured information that reduces noise and speeds up decisions.</p>
+    </article>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:info@jus3ltd.com">info@jus3ltd.com</a></p>
+  </section>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> JUS3 LTD. All rights reserved.</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
